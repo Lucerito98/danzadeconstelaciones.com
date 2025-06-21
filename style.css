@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #FAF9F6;
+    color: #2F5233;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #D8B4E2, #A8D5BA);
+    padding: 60px 20px;
+    border-bottom: 2px solid #C0C0C0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #A678B4;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    border-top: 1px dashed #C0C0C0;
+}
+
+input, select, textarea, button {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #A678B4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+    color: #2F5233;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #A9A9A9;
+}

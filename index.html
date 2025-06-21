@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucerito y Cielito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop hidden>
+        <source src="musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <header class="fade-in">
+        <h1>Nuestro encuentro entre constelaciones</h1>
+        <p>Lucerito y Cielito</p>
+    </header>
+
+    <section class="fade-in">
+        <h2>Confirma tu asistencia</h2>
+        <form action="https://formsubmit.co/f.rodriguezdiaz@outlook.com" method="POST">
+            <input type="text" name="Nombre" placeholder="Tu nombre" required>
+            <input type="number" name="Acompañantes" placeholder="Número de acompañantes" required>
+            <select name="Asistencia" required>
+                <option value="">¿Asistirás?</option>
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="fade-in">
+        <h2>Déjanos un mensaje</h2>
+        <form action="https://formsubmit.co/f.rodriguezdiaz@outlook.com" method="POST">
+            <input type="text" name="Nombre" placeholder="Tu nombre" required>
+            <textarea name="Mensaje" rows="4" placeholder="Tu mensaje para los novios" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <section class="fade-in">
+        <h2>Galería (Próximamente)</h2>
+        <p>Después de la boda subiremos aquí nuestras fotos más especiales 🌌</p>
+    </section>
+
+    <footer class="fade-in">
+        <p>Hecho con amor por Lucerito y Cielito ✨</p>
+    </footer>
+</body>
+</html>
